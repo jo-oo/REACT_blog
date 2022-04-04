@@ -1,5 +1,5 @@
 //import logo from './logo.svg';      //visar den fina loggan Saun har
-import './App.css';
+
 import Navbar from './Navbar'; //importerar vpår NavBar-Template
 import Home from './Home';//importerar vår Home-Template
 
@@ -8,7 +8,7 @@ import Home from './Home';//importerar vår Home-Template
 function App() {
   return (
     <div className="App"> 
-        <Navbar />
+        <Navbar /> 
         <div className="content">
           <Home />
         </div>
