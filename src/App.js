@@ -1,6 +1,7 @@
 //import logo from './logo.svg';      //visar den fina loggan Saun har
 
 import Navbar from './Navbar'; //importerar vpår NavBar-Template
+import Home1 from './Home1';//importerar vår Home1-Template (den första koden)
 import Home from './Home';//importerar vår Home-Template
 
 //Appen med classname App har injectats in i Html-filen. Den filen renderar app och skciukar till DOM
@@ -10,6 +11,7 @@ function App() {
     <div className="App"> 
         <Navbar /> 
         <div className="content">
+          <Home1 />
           <Home />
         </div>
     </div>
