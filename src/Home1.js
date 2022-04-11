@@ -12,7 +12,7 @@ const Home1 = () => {
     return (  
         <div className="home1">
             <h2>Home1</h2>
-            <button onClick={handleClick}>Click me and now some functions should run that I just created inside thos Home function</button>
+            <button onClick={handleClick}>Click me and now some functions should run that I just created inside thos Home1 function</button>
             <button onClick={(e) => {
                  //console.log("Hello");
                 handleClickAgain('mario', e)

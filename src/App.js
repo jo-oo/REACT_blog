@@ -8,7 +8,7 @@ import Home from './Home';//importerar vår Home-Template
 
 function App() {
   return (
-    <div className="App"> 
+    <div className="App">
         <Navbar /> 
         <div className="content">
           <Home1 />
